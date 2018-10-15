@@ -1,0 +1,35 @@
+.cta.bg-pattern {
+    background-image: url('/src/images/new_pattern.png');
+    background-repeat: repeat;
+    background-color: #ff9f21;     
+    float: left;
+    width: 100%;
+}
+.cta.bg-pattern .inner-wrap {
+    padding: 90px 0 101px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 159, 33, 0.85)), to(rgba(238, 62, 109, 0.85)));
+    background: -webkit-linear-gradient(left, rgba(255, 159, 33, 0.85), rgba(238, 62, 109, 0.85));
+    background: -o-linear-gradient(left, rgba(255, 159, 33, 0.85), rgba(238, 62, 109, 0.85));
+    background: linear-gradient(to right, rgba(255, 159, 33, 0.85), rgba(238, 62, 109, 0.85));
+}
+
+.cta .inner-wrap .col {
+    max-width: 785px;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.cta.bg-pattern .inner-wrap .col h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 0;
+}
+
+.cta .inner-wrap .col p {
+    margin: 22px auto 0;
+    line-height: 1.62;
+    color: #FFFFFF;
+    font-size: 22px;
+}
