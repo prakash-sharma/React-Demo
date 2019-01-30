@@ -7,7 +7,6 @@ class RouterConfig extends Component {
     return (
       <Switch>
         {routes.map((route) => {
-          console.log(route);
           return (
             <Route
               key={route.id}

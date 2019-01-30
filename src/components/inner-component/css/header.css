@@ -1,0 +1,17 @@
+.header{
+    /* position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    top: 0; */
+}
+.header ul li{
+    display: inline-block;
+    margin: 0;
+}
+
+.header ul li a:not(.btn-default){
+    color: #353434;
+    text-transform: capitalize;
+    font-weight: 700;
+}

@@ -1,10 +1,30 @@
 .banner-with-video{
     position: relative;
 }
+.banner-with-video .item{
+    overflow-x: hidden;
+    position: relative;
+}
 .banner-with-video .bg-img {
     height: 650px;
     overflow: hidden;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    width: 100%;
+    left: 0;
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+.banner-with-video .bg-img.active {
     position: relative;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.banner-with-video .bg-img.active + .bg-img{
+    transform: scale(0.8);
 }
 .banner-with-video .bg-img::after{
     content: "";
@@ -13,7 +33,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.24);
 }
 .banner-with-video .bg-img img {
     -o-object-fit: cover;

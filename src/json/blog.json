@@ -1,0 +1,170 @@
+[
+    {
+        "id" : "1",
+        "background": {
+            "image": "dummy_images.png",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "From Kaggle Grand Masters’ Recipes to Production Ready in a Few Clicks",
+        "post_blurb": "Introdtucing Accelerated Automatic Pipelines",
+        "category" : "category1",
+        "post_url": ""
+    },
+    {
+        "id" : "2",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg2.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "H2O World coming to NYC",
+        "post_blurb": "Whether you’re just starting out learning how machine learning and H2O.ai can supercharge your business or a veteran looking for...",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "3",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg2.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category3",
+        "post_url": ""
+    },
+    {
+        "id" : "4",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg4.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category1",
+        "post_url": ""
+    },
+    {
+        "id" : "5",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg5.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "July 11, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "6",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg6.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "July 11, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "7",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg7.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "July 11, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "8",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg1.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "From Kaggle Grand Masters’ Recipes to Production Ready in a Few Clicks",
+        "post_blurb": "Introdtucing Accelerated Automatic Pipelines",
+        "category" : "category1",
+        "post_url": ""
+    },
+    {
+        "id" : "9",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg2.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "H2O World coming to NYC",
+        "post_blurb": "Whether you’re just starting out learning how machine learning and H2O.ai can supercharge your business or a veteran looking for...",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "10",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg2.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category3",
+        "post_url": ""
+    },
+    {
+        "id" : "11",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg4.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "May 9, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category1",
+        "post_url": ""
+    },
+    {
+        "id" : "12",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg5.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "July 11, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "13",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg6.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "July 11, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category2",
+        "post_url": ""
+    },
+    {
+        "id" : "14",
+        "background": {
+            "image": "/wp-content/themes/h2o2018/templates/assets/images/blog_landing/blog_post_bg7.jpg",
+            "alt": "Blog Post"
+        },
+        "post_date": "July 11, 2018",
+        "post_heading": "Suspendisse nec iaculis, lacus pellentesque.",
+        "post_blurb": "Duis consequat, nunc a pretium imperdiet, neque est rhoncus mass, tristique rutrum nisl.",
+        "category" : "category2",
+        "post_url": ""
+    }
+]

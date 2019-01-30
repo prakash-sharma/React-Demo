@@ -11,9 +11,7 @@ constructor(props){
        password: '',
        firstName: '',
        userName: '',
-       error:{
-           message: ''
-       }
+       error:''
     }
 }
 Change = e => {
@@ -22,33 +20,29 @@ Change = e => {
     });
     
 }
+componentWillMount() {
+}
 onSubmit=e =>{
     e.preventDefault();
+    let x = '';
     const data = {
         email: this.state.email,
             password: this.state.password,
-            firstName: this.state.userName,
-            userName: this.state.firstName,
+            userName: this.state.userName,
+            firstName: this.state.firstName,
       }
-
-    fetch('http://localhost:3010/user', {
+        fetch('http://localhost:3010/user', {
         method: 'post',
         headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
+            "Content-Type": "application/json",
+    "Accept": "application/json",
         },
         body: JSON.stringify(data)
-    }).then(
-        (response) => {
-          console.log(response);
-          return response.json();
-
-        } // if the response is a JSON object
-      ).then(
-      success =>console.log(success) // Handle the success response object
-    ).catch(function(error) {
+    }).then((response) => {
+        console.log(response.json());
+      }).catch(function(error) {
       console.log('Request failed', error)
-    });    
+    })
 }
 
 render() {
@@ -102,6 +96,7 @@ render() {
                 <button onClick={e => this.onSubmit(e)}>Submit</button>
             </form>
             </div>
+            {this.state.error}
         </div>
         </div>
     );

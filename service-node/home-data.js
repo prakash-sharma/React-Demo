@@ -11,9 +11,7 @@ const app = express();
     next();
   });
 
-
-
- app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 const uri = "mongodb://abhishek:9045323996abhishek@ds147390.mlab.com:47390/shopperuncle";
