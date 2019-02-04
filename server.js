@@ -45,16 +45,17 @@ app.post('/user',function(req,res){
              });
     dbconnection.each(function(err, doc) {
         if(doc){
-            console.log('user exists'+ doc);
             results= doc.userName;
             results2 = doc.email;
             if(results === username){
-                res.send(JSON.stringify(results));
+                res.send(JSON.stringify('User Exits: '+ results));
             }
             else if(results2 === new_email){
-                res.send(JSON.stringify(results2));
+                res.send(JSON.stringify('Email Exits: ' +results2));
             }
-            return false; 
+            else{
+
+            }
         }
         else{
             db.collection('user').insert(req.body,function(err,result){

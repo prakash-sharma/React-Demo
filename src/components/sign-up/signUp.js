@@ -1,17 +1,18 @@
 import React from 'react';
 import './Home.css';
 import BannerThird from '../inner-component/banner-third-level';
-class SignUp extends React.Component {
+import Cookies from './form-request';
 
-    
+class SignUp extends React.Component {
 constructor(props){
     super(props);
     this.state={
+        id: '',
        email: '',
        password: '',
        firstName: '',
        userName: '',
-       error:''
+       error:'',
     }
 }
 Change = e => {
@@ -25,8 +26,9 @@ componentWillMount() {
 onSubmit=e =>{
     e.preventDefault();
     let x = '';
+    const _self = this;
     const data = {
-        email: this.state.email,
+            email: this.state.email,
             password: this.state.password,
             userName: this.state.userName,
             firstName: this.state.firstName,
@@ -35,24 +37,36 @@ onSubmit=e =>{
         method: 'post',
         headers: {
             "Content-Type": "application/json",
-    "Accept": "application/json",
+            "Accept": "application/json",
         },
         body: JSON.stringify(data)
     }).then((response) => {
-        console.log(response.json());
+        return response.json();
+      }).then((res) =>{
+        _self.setState({
+            error: res
+        });
+        console.log(res);
       }).catch(function(error) {
-      console.log('Request failed', error)
     })
 }
 
 render() {
+    let errors= this.state.error;
+    let cookie = '';
+    if (errors) {
+        errors = <span className="alert">{this.state.error}</span>
+      }
     return (
         <div>
             <div>
             <BannerThird title="Sign Up Form"/>
+            
             </div>
+            
         <div className="form-outer">
         <div className="container">
+            {errors}
             <form className="form" required>
                 <div className="field-wrapper">
                     <input
@@ -96,7 +110,6 @@ render() {
                 <button onClick={e => this.onSubmit(e)}>Submit</button>
             </form>
             </div>
-            {this.state.error}
         </div>
         </div>
     );
